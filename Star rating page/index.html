@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link rel="stylesheet" href="all.min.css">
+    <link rel="stylesheet" href="fontawesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Star - rating</title>
+</head>
+
+<body>
+    <div class="container">
+            <div class="form-group">
+                <select id="product" class="form-control custom-select">
+                    <option value="-1" disabled selected>Select Product</option>
+                    <option value="Samsung">Samsung</option>
+                    <option value="Apple">Apple</option>
+                    <option value="Nokia">Nokia</option>
+                    <option value="Huwei">Huwei</option>
+                    <option value="LG">LG</option>
+                    <option value="Vivo">Vivo</option>
+                    <option value="Redmi">Redmi</option>
+                    <option value="Tecno">Tecno</option>
+                    <option value="Sony">Sony</option>
+                </select>
+            </div>
+        <div class="form-group">
+            <input type="number" id="manuly-typed-stars" class="form-control" disabled step="0.1" max="5" placeholder="Rate (1 - 5)" >
+        </div>
+
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Smartphone's</th>
+                    <th>Ratings</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="Samsung">
+                    <td>Samsung</td>
+                    <td>
+                        <div class="star-outer">
+                            <div class="inner-star"></div>
+                        </div>
+                        <span style="margin-left: 10px;" class="Samsung-ratings"></span>
+                    </td>
+                </tr>
+                <tr class="Apple">
+                    <td>Apple</td>
+                    <td>
+                        <div class="star-outer">
+                            <div class="inner-star"></div>
+                        </div>
+                        <span style="margin-left: 10px;" class="Apple-ratings"></span>
+                    </td>
+                </tr>
+                <tr class="Nokia">
+                    <td>Nokia</td>
+                    <td>
+                        <div class="star-outer">
+                            <div class="inner-star"></div>
+                        </div>
+                        <span style="margin-left: 10px;" class="Nokia-ratings"></span>
+                    </td>
+                </tr>
+                <tr class="Huwei">
+                    <td>Huwei</td>
+                    <td>
+                        <div class="star-outer">
+                            <div class="inner-star"></div>
+                        </div>
+                        <span style="margin-left: 10px;" class="Huwei-ratings"></span>
+                    </td>
+                </tr>
+                <tr class="LG">
+                    <td>LG</td>
+                    <td>
+                        <div class="star-outer">
+                            <div class="inner-star"></div>
+                        </div>
+                        <span style="margin-left: 10px;" class="LG-ratings"></span>
+                    </td>
+                </tr>
+                <tr class="Vivo">
+                    <td>Vivo</td>
+                    <td>
+                        <div class="star-outer">
+                            <div class="inner-star"></div>
+                        </div>
+                        <span style="margin-left: 10px;" class="Vivo-ratings"></span>
+                    </td>
+                </tr>
+                <tr class="Redmi">
+                    <td>Redmi</td>
+                    <td>
+                        <div class="star-outer">
+                            <div class="inner-star"></div>
+                        </div>
+                        <span style="margin-left: 10px;" class="Redmi-ratings"></span>
+                    </td>
+                </tr>
+                <tr class="Tecno">
+                    <td>Tecno</td>
+                    <td>
+                        <div class="star-outer">
+                            <div class="inner-star"></div>
+                        </div>
+                        <span style="margin-left: 10px;" class="Tecno-ratings"></span>
+                    </td>
+                </tr>
+                <tr class="Sony">
+                    <td>Sony</td>
+                    <td>
+                        <div class="star-outer">
+                            <div class="inner-star"></div>
+                        </div>
+                        <span style="margin-left: 10px;" class="Sony-ratings"></span>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+    <script src="brain.js"></script>
+</body>
+
+</html>
